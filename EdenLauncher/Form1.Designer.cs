@@ -46,7 +46,9 @@
             this.LaunchEden = new System.Windows.Forms.Button();
             this.JoinDiscord = new System.Windows.Forms.Button();
             this.Sitebutton = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel7.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -72,6 +74,7 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel1.Location = new System.Drawing.Point(0, 352);
             this.panel1.Name = "panel1";
@@ -229,6 +232,17 @@
             this.Sitebutton.UseVisualStyleBackColor = true;
             this.Sitebutton.Click += new System.EventHandler(this.Sitebutton_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Lucida Sans", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label1.Location = new System.Drawing.Point(601, 4);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(38, 14);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "v0.2b";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -243,6 +257,8 @@
             this.Text = "Eden Roleplay";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel7.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel8.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -271,6 +287,7 @@
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.Label label1;
     }
 }
 
