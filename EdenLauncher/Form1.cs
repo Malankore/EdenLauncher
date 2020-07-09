@@ -26,5 +26,15 @@ namespace EdenLauncher
         {
             System.Diagnostics.Process.Start("fivem://connect/154.16.67.95:30120");
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://discord.gg/fzexZJ4");
+        }
     }
 }
